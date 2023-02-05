@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal Store</title>
+  <!-- adding the css page  -->
+  <link rel="stylesheet" href="src/style.css">
+  <!-- adding the bootstap cnd for Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- creating an navigation bar  -->
+  <div class="navbar">
+    <!-- heading  -->
+    <a href="index.html">
+      <h2>Meal Store</h2>
+    </a>
+
+     <!-- creating input box  -->
+    <form action="">
+          <input type="text" class="form-control" placeholder='Find Your Meal.....' id="input">
+          <input type="submit" class='btn btn-primary' id="submit">
+    </form>
+
+
+  <!-- cart icon  -->
+    <a href="cart.html">
+      <div class="cart">
+        <i class="bi bi-heart-fill" style="color: red;"></i>
+        <div id="cartAmount" class="cartAmount" style="color: aliceblue;">0</div>
+      </div>
+    </a>
+
+  </div>
+
+
+
+  <!-- Meals will be displayed inside this  -->
+  <div class="shop" id="shop">
+    
+  </div>
+
+</body>
+<!-- adding the javascript page  -->
+<script src="src/Data.js"></script>
+<script src="src/main.js"></script>
+
+</html>
